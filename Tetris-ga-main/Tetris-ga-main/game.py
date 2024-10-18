@@ -95,7 +95,7 @@ def drawOnScreen(board, score, level, nextPiece, fallingPiece):
 def read_from_file():
     with open('weights.txt', 'r') as file:
         lines = file.readlines()
-    return [int(line.strip()) for line in lines]
+    return [float(line.strip()) for line in lines]
 
 # Main function to run the game
 if __name__ == '__main__':

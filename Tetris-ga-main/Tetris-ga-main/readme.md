@@ -1,62 +1,59 @@
-# Tetris Game AI using Genetic Algorithm
+# Trò chơi Tetris kết hợp AI sử dụng Thuật toán Di truyền
 
-This project implements a Tetris game with an AI player powered by a genetic algorithm. The AI player evolves over time to improve its ability to play Tetris optimally.
+Dự án này triển khai trò chơi Tetris với AI sử dụng thuật toán di truyền thực hiện. AI sẽ tiến hóa theo thời gian để cải thiện khả năng chơi Tetris một cách tối ưu.
 
-## Table of Contents
+## Mục lục
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Genetic Algorithm](#genetic-algorithm)
-- [License](#license)
+- [Giới thiệu](#Giới-thiệu)
+- [Tính năng](#Tính-năng)
+- [Cài đặt](#Cài-đặt)
+- [Sử dụng](#Sử-dụng)
+- [Thuật toán di truyền](#Thuật-toán-di-truyền)
 
-## Introduction
+## Giới thiệu
 
-Tetris Game AI is a project that combines the classic game of Tetris with artificial intelligence. The AI player learns to play Tetris by evolving a population of strategies using a genetic algorithm.
+Dự án Trò chơi Tetris kết hợp AI là sự hòa trộn hoàn hảo giữa trò chơi cổ điển Tetris và trí tuệ nhân tạo. AI học cách chơi Tetris bằng cách tiến hóa một tập hợp các chiến lược thông qua thuật toán di truyền.
 
-## Features
+## Tính năng
 
-- Classic Tetris gameplay
-- Genetic algorithm-driven AI player
-- Evolving strategies for optimal gameplay
-- Interactive and visually appealing interface
+- Lối chơi Tetris cổ điển.
+- Người chơi AI được điều khiển bởi thuật toán di truyền.
+- Chiến lược tiến hóa cho lối chơi tối ưu.
+- Giao diện tương tác và hình ảnh hấp dẫn.
 
-## Installation
+## Cài đặt
 
 1. Clone the repository:
 
-    ```bash
-    git clone https://github.com/dokhanhnam1199/Tetris-ga.git
-    cd Tetris-ga
-    ```
+   ```bash
+   git clone https://github.com/lapdzvl/Genetic-Algoritm
+   cd Tetris-ga
+   ```
 
 2. Install the required dependencies:
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+   ```bash
+   pip install -r requirements.txt
+   ```
+
 3. Run the trainning program:
 
-    ```bash
-    python main.py
-    ```
+   ```bash
+   python main.py
+   ```
 
 4. Run the game:
 
-    ```bash
-    python game.py
-    ```
+   ```bash
+   python game.py
+   ```
 
-## Usage
+## Sử dụng
 
-- Use arrow keys to move and rotate Tetris pieces.
-- Watch the AI player evolve and improve over time.
-- Enjoy the game or let the AI play for you!
+- Sử dụng các phím mũi tên để di chuyển và xoay các mảnh Tetris.
+- Xem người chơi AI tiến hóa và cải thiện theo thời gian.
+- Thưởng thức trò chơi hoặc để AI chơi thay bạn!
 
-## Genetic Algorithm
+## Thuật toán di truyền
 
-The genetic algorithm works by evolving a population of strategies for playing Tetris. Each strategy is represented as a set of genes, and the fittest strategies are selected for reproduction in each generation. Over time, the AI player learns to make better decisions and achieve higher scores.
-
-
-
+Thuật toán di truyền hoạt động bằng cách tiến hóa một tập hợp các chiến lược để chơi Tetris. Mỗi chiến lược được biểu diễn dưới dạng một tập hợp các gen và những chiến lược phù hợp nhất sẽ được chọn để tái sản xuất qua mỗi thế hệ. Theo thời gian, người chơi AI học cách đưa ra quyết định tốt hơn và đạt điểm số cao hơn.
