@@ -15,7 +15,7 @@ def main(numGenerations, numIndividuals, bestIndividualsToKeep):
     gameSpeed = 500
     for j in range(numGenerations):
         print('\n')
-        print(' - - - - Current Generation: {} - - - - '.format(j+1))
+        print(' - - - - Thế hệ hiện tại: {} - - - - '.format(j+1))
         print('\n')
 
         # Evaluate each individual in the generation
@@ -39,9 +39,9 @@ def save_to_file(lst):
             file.write(f'{item}\n')
 
 if __name__ == '__main__':
-    numGenerations = int(input("Number of Generations: "))
-    numIndividuals = int(input("Number of Individuals: "))
-    bestIndividualsToKeep = int(input("Keep the best individuals: "))
+    numGenerations = int(input("Số thế hệ: "))
+    numIndividuals = int(input("Số cá thể: "))
+    bestIndividualsToKeep = int(input("Số cá thể tốt nhất được giữ lại: "))
 
     best_individuals, fitness_averages_per_generation, best = main(numGenerations, numIndividuals, bestIndividualsToKeep)
     
