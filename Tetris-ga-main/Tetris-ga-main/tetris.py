@@ -575,3 +575,5 @@ def calculateHolesCoversHeight(board, x):
 if __name__ == '__main__':
     manualGame = True
     main()
+
+    
